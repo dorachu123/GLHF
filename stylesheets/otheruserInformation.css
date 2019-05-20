@@ -1,0 +1,108 @@
+
+#userInformation{
+	background:#FAF0E6;
+	position:relative;
+	padding-bottom:20px;
+	margin-top:80px;
+	border-radius:20px;
+}
+
+#userInformation p{
+	padding:0px 10px;
+}
+.wrapper{
+	width:100%;
+	padding: 20px 40px;
+}
+#userInformation #imageArea{
+	width:40%;
+	height:250px;
+	float:left;
+}
+#image{
+	height:250px;
+	width: 100%;
+	object-fit: contain;
+}
+#userInformation #details{
+	width:60%;
+	height:250px;
+	float:left;
+}
+.nickname{
+	background:#FAF0E6;
+	border:none;
+	font-size:25px;
+	width:100%;
+	margin:20px;
+	padding:0;
+}
+#userId{
+	text-align: right;
+	margin:0;
+	padding:0;
+}
+#policy{
+
+}
+#game{
+
+}
+
+.introduction{
+	width:100%;
+	height:400px;
+	padding:25px;
+	margin:15px auto;
+	float:left;
+	background:white;
+	border-radius:20px;
+	border:none;
+	border:ridge 2px black;
+	overflow: auto;
+}
+.button-wrapper{
+	text-align:center;
+}
+#follow_button{
+	background:#c7081d;
+	width:300px;
+	height:70px;
+	color:white;
+	border:none;
+	font-size:30px;
+	border-radius:25px;
+	transition: box-shadow 0.4s;
+}
+#follow_button:hover{
+	box-shadow:4px 4px #555;
+	transition: box-shadow 0.7s;
+}
+#remove_button{
+	background:#033250;
+	width:300px;
+	height:70px;
+	color:white;
+	border:none;
+	font-size:30px;
+	border-radius:25px;
+	transition:box-shadow 0.4s;
+}
+#remove_button:hover{
+	box-shadow:4px 4px #555;
+	transition: box-shadow 0.7s;
+}
+#match_button{
+	background:#8ce196;
+	width:300px;
+	height:70px;
+	color:white;
+	border:none;
+	font-size:30px;
+	border-radius:25px;
+	transition: box-shadow 0.4s;
+}
+#match_button:hover{
+	box-shadow:4px 4px #555;
+	transition: box-shadow 0.7s;
+}

@@ -1,0 +1,204 @@
+
+*{
+	/**font-family:'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	**/
+	font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+body {
+	background:#363940;
+	align-items: center;
+	justify-content: center;
+}
+
+#drawer drawer--left{
+	transform:?dtranslate(0px,?0px);
+}
+.drawer-nav {
+  width: 40rem;
+  background:#363940;
+  color:white;
+}
+.drawer-nav div,button{
+	width:100%;
+	background:#363940;
+	color:white;
+}
+.drawer--left .drawer-nav {
+  left: -40rem;
+}
+.drawer--left.drawer-open .drawer-hamburger {
+  left: 40rem;
+}
+.drawer-hamburger-icon{
+	background:white;
+}
+.drawer-hamburger-icon:after{
+	background:white;
+}
+.drawer-hamburger-icon:before{
+	background:white;
+}
+/*** body {
+background-color: #FF9999;
+animation: grade 5s infinite;
+-webkit-animation: grade 5s infinite;
+}
+@-webkit-keyframes grade {
+0% { background-color: #363940; }
+100% { background-color: black; }
+100% { background-color: #363940; }
+}
+@keyframes grade {
+0% { background-color: #363940; }
+50% { background-color: black; }
+100% { background-color: #363940; }
+}
+***/
+
+a:link { color: black; }
+a:visited { color: black; }
+a:hover {
+	color: black;
+	text-decoration:none;
+}
+a:active { color: black; }
+a:focus{
+	border:none;
+	text-decoration:none;
+}
+#main{
+	margin: 0 0px;
+}
+#menu{
+	width:20%;
+	min-width:200px;
+	float:left;
+}
+.contents{
+	width:80%;
+	min-width:600px;
+	float:left;
+	margin: 0 10%;
+	margin-top:100px;
+}
+#menu div,button{
+	width:100%;
+	background:#363940;
+	color:white;
+}
+#loginUser{
+	text-align: center;
+	padding:30px 0;
+}
+#loginUser a{
+	color:white;
+}
+
+.cButton{
+	background:#363940;
+	color:white;
+	border:none;
+	margin:10px 0px;
+	padding:9px 0px;
+	margin-right:5px;
+	transition: background-color 0.2s,border-radius 0.2s;
+	font-size:18px;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+.cButton:hover{
+	background:#666666;
+	color:white;
+	border-radius:4px;
+	transition: background-color 0.2s,border-radius 0.2s;
+}
+.cButton::after{
+	content:"";
+	width: 0;
+	height: 2px;
+	position: absolute;
+	transition: all 0.2s linear;
+	border-bottom:ridge 2px white;
+	left: 0;
+	bottom: 0;
+	transition-delay: 0.2s;
+}
+.cButton:hover::after{
+	width: 100%;
+	transition-delay: 0s;
+}
+#logoutbtn{
+	background:#363940;
+	color:#363940;
+	height:50px;
+	border:none;
+	margin-top:40px;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+#logoutbtn::after{
+	content:"LOGOUT";
+	background:#a61a37;
+	font-size:35px;
+	width: 0;
+	height: 0;
+	border-radius:20px;
+	position: absolute;
+	transition: all 0.2s;
+	left: 0;
+	top: 0;
+	transition-delay: 0.3s;
+}
+#logoutbtn:hover::after{
+	height: 50px;
+	width:100%;
+	transition-delay: 0s;
+}
+#userImage{
+	height:120px;
+	position: relative;
+}
+#userImage img{
+	border-style: none;
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	top: 50%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	transition: border-radius 0.3s;
+}
+#userImage img:hover{
+	border-radius: 30%;
+	transition: border-radius 0.3s;
+}
+#userName{
+	height:50px;
+}
+
+/*スクロールバー全体*/
+::-webkit-scrollbar {
+	width: 7px;
+}
+/*スクロールバーの軌道*/
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, .1);
+}
+/*スクロールバーの動く部分*/
+::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 50, .5);
+	border-radius: 10px;
+	box-shadow:0 0 0 1px rgba(255, 255, 255, .3);
+}
+.selection {
+	display: none;
+}
+#page-1 {
+	display: block;
+}

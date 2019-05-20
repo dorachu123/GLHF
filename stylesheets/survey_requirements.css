@@ -1,0 +1,80 @@
+body{
+	background:#363940;
+
+}
+.wrapper{
+	width: 90%;
+	font-size: 16px;
+	background: #363940;
+	border:none;
+	border-radius:7px;
+}
+.survey-wrapper{
+	width:100%;
+	height:100px;
+	background:white;
+	margin:10px;
+	border-radius:10px;
+}
+.survey-title{
+	line-height:100px;
+	text-align:left;
+	padding-left:10px;
+	width:30%;
+	float:left;
+	border-right:ridge 2px black;
+}
+.survey-content{
+	line-height:100px;
+	width:70%;
+	padding-left:10px;
+	float:left;
+}
+.modal{
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100vw;
+	height:100vh;
+	background-color:rgba(0,0,0,0.7);
+	z-index:1000;
+}
+.modal-content{
+	display:none;
+	text-align:center;
+	opacity:1;
+	position:fixed;
+	top:-100;
+	left:50%;
+	transform:translate(-50%, -50%);
+	padding:30px;
+	height:170px;
+	width:500px;
+	boarder-radius:5px;
+	background-color:white;
+	z-index:1200;
+}
+.modal-title{
+	font-size:22px;
+}
+#modal-cancel{
+	color:white;
+	background:#a61a37;
+	border:none;
+	border-radius:10px;
+	font-size:18px;
+	padding:10px;
+	margin-top:25px;
+	margin-right:15px;
+}
+#modal-submit{
+	color:white;
+	background:#8ce196;
+	border:none;
+	border-radius:10px;
+	font-size:18px;
+	padding:10px;
+	margin-top:25px;
+	margin-left:15px;
+}

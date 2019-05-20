@@ -1,0 +1,291 @@
+@font-face {
+	font-family: "sushiki";
+	src: url("../fonts/数式フォントver1.2/数式フォントver1.2.woff") format('woff'),
+		 url("../fonts/数式フォントver1.2/数式フォントver1.2.eot") format('eot'),
+		 url("../fonts/数式フォントver1.2/数式フォントver1.2.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "Agent";
+	src: url("../fonts/Agent/Agent.woff") format('woff'),
+		 url("../fonts/Agent/Agent.eot") format('eot'),
+		 url("../fonts/Agent/Agent.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "Morphon";
+	src: url("../fonts/Morphon/Morphon.woff") format('woff'),
+		 url("../fonts/Morphon/Morphon.eot") format('eot'),
+		 url("../fonts/Morphon/Morphon.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "Planetarium";
+	src: url("../fonts/Planetarium/Planetarium.woff") format('woff'),
+		 url("../fonts/Planetarium/Planetarium.otf") format('opentype');
+}
+@font-face {	
+	font-family: "Geotica_2012";
+	src: url("../fonts/Geotica_2012/Geotica_2012.woff") format('woff'),
+		 url("../fonts/Geotica_2012/Geotica_2012.otf") format('opentype');
+}
+@font-face {	
+	font-family: "Rafale-BG";
+	src: url("../fonts/Rafale BG/Rafale BG.woff") format('woff'),
+		 url("../fonts/Rafale BG/Rafale BG.otf") format('opentype');
+}
+@font-face {	
+	font-family: "Anders";
+	src: url("../fonts/Anders/Anders.woff") format('woff'),
+		 url("../fonts/Anders/Anders.eot") format('eot'),
+		 url("../fonts/Anders/Anders.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "FRINCO";
+	src: url("../fonts/FRINCO/FRINCO.woff") format('woff'),
+		 url("../fonts/FRINCO/FRINCO.eot") format('eot'),
+		 url("../fonts/FRINCO/FRINCO.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "Berylium";
+	src: url("../fonts/Berylium/Berylium.woff") format('woff'),
+		 url("../fonts/Berylium/Berylium.eot") format('eot'),
+		 url("../fonts/Berylium/Berylium.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "FoglihtenNo04-070";
+	src: url("../fonts/FoglihtenNo04-070/FoglihtenNo04-070.woff") format('woff'),
+		 url("../fonts/FoglihtenNo04-070/FoglihtenNo04-070.otf") format('opentype');
+}
+@font-face {	
+	font-family: "accent-true-type";
+	src: url("../fonts/accent-true-type/accent.woff") format('woff'),
+		 url("../fonts/accent-true-type/accent.eot") format('eot'),
+		 url("../fonts/accent-true-type/accent.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "Neu-Eichmass";
+	src: url("../fonts/Neu_Eichmass/Neu_Eichmass.woff") format('woff'),
+		 url("../fonts/Neu_Eichmass/Neu_Eichmass.eot") format('eot'),
+		 url("../fonts/Neu_Eichmass/Neu_Eichmass.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "Old-printing-press";
+	src: url("../fonts/Old printing press_FREE-version/Old printing press_FREE-version.woff") format('woff'),
+		 url("../fonts/Old printing press_FREE-version/Old printing press_FREE-version.eot") format('eot'),
+		 url("../fonts/Old printing press_FREE-version/Old printing press_FREE-version.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "Thin-Line-Font";
+	src: url("../fonts/Thin_Line_Font/Thin_Line_Font.woff") format('woff'),
+		 url("../fonts/Thin_Line_Font/Thin_Line_Font.eot") format('eot'),
+		 url("../fonts/Thin_Line_Font/Thin_Line_Font.otf") format('opentype');
+}
+@font-face {	
+	font-family: "anurati";
+	src: url("../fonts/anurati_font/Anurati-Regular.woff") format('woff'),
+		 url("../fonts/anurati_font/Anurati-Regular.otf") format('opentype');
+}
+@font-face {	
+	font-family: "badhead-typeface";
+	src: url("../fonts/badhead-typeface/Badhead Typeface.woff") format('woff'),
+		 url("../fonts/badhead-typeface/Badhead Typeface.eot") format('eot'),
+		 url("../fonts/badhead-typeface/Badhead Typeface.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "Boxboxbox_heavy";
+	src: url("../fonts/Boxboxbox_heavy/Boxboxbox_heavy.woff") format('woff'),
+		 url("../fonts/Boxboxbox_heavy/Boxboxbox_heavy.eot") format('eot'),
+		 url("../fonts/Boxboxbox_heavy/Boxboxbox_heavy.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "chesbone";
+	src: url("../fonts/chesbone/chesbone.woff") format('woff'),
+		 url("../fonts/chesbone/chesbone.eot") format('eot'),
+		 url("../fonts/chesbone/chesbone.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "Circus-Freak-FreeFont";
+	src: url("../fonts/Circus-Freak FreeFont/Circus-Freak FreeFont.woff") format('woff'),
+		 url("../fonts/Circus-Freak FreeFont/Circus-Freak FreeFont.otf") format('opentype');
+}
+@font-face {	
+	font-family: "Debby";
+	src: url("../fonts/Debby/Debby.woff") format('woff'),
+		 url("../fonts/Debby/Debby.otf") format('opentype');
+}
+@font-face {	
+	font-family: "Higher";
+	src: url("../fonts/Higher/Higher.woff") format('woff'),
+		 url("../fonts/Higher/Higher.otf") format('opentype');
+}
+@font-face {	
+	font-family: "Mosaicleaf";
+	src: url("../fonts/Mosaicleaf/Mosaicleaf.woff") format('woff'),
+		 url("../fonts/Mosaicleaf/Mosaicleaf.otf") format('opentype');
+}
+@font-face {	
+	font-family: "Navia";
+	src: url("../fonts/Navia/Navia.woff") format('woff'),
+		 url("../fonts/Navia/Navia.eot") format('eot'),
+		 url("../fonts/Navia/Navia.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "ogrejuice";
+	src: url("../fonts/ogrejuice/ogrejuice.woff") format('woff'),
+		 url("../fonts/ogrejuice/ogrejuice.eot") format('eot'),
+		 url("../fonts/ogrejuice/ogrejuice.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "Origram";
+	src: url("../fonts/Origram/Origram.woff") format('woff'),
+		 url("../fonts/Origram/Origram.otf") format('opentype');
+}
+@font-face {	
+	font-family: "plstk";
+	src: url("../fonts/plstk/plstk.woff") format('woff'),
+		 url("../fonts/plstk/plstk.eot") format('eot'),
+		 url("../fonts/plstk/plstk.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "REIS";
+	src: url("../fonts/REIS/REIS.woff") format('woff'),
+		 url("../fonts/REIS/REIS.eot") format('eot'),
+		 url("../fonts/REIS/REIS.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "fontello";
+	src: url("../fonts/fontello/fontello.woff") format('woff'),
+		 url("../fonts/fontello/fontello.eot") format('eot'),
+		 url("../fonts/fontello/fontello.ttf") format('truetype');
+}
+@font-face {	
+	font-family: "Sequi";
+	src: url("../fonts/Sequi/Sequi.woff") format('woff'),
+		 url("../fonts/Sequi/Sequi.otf") format('opentype');
+}
+@font-face {	
+	font-family: "Ribbon";
+	src: url("../fonts/Ribbon/Ribbon.woff") format('woff'),
+		 url("../fonts/Ribbon/Ribbon.otf") format('opentype');
+}
+@font-face {	
+	font-family: "Stroke";
+	src: url("../fonts/Stroke/Stroke.woff") format('woff'),
+		 url("../fonts/Stroke/Stroke.otf") format('opentype');
+}
+@font-face {	
+	font-family: "valencia";
+	src: url("../fonts/valencia/valencia.woff") format('woff'),
+		 url("../fonts/valencia/valencia.otf") format('opentype');
+}
+@font-face {	
+	font-family: "GDHighwayGoJA";
+	src: url("../fonts/GDHighwayGoJA/GDHighwayGoJA.woff") format('woff'),
+		 url("../fonts/GDHighwayGoJA/GDHighwayGoJA.otf") format('opentype');
+}
+@font-face {	
+	font-family: "pigmo01";
+	src: url("../fonts/pigmo01/pigmo01.woff") format('woff'),
+		 url("../fonts/pigmo01/pigmo01.otf") format('opentype');
+}
+
+.agent{
+	font-family:"Agent";
+}
+.sushiki{
+	font-family:"sushiki";
+}
+.Morphon{
+	font-family:"Morphon";
+}
+.Planetarium{
+	font-family:"Planetarium";
+}
+.Geotica-2012{
+	font-family:"Geotica_2012";
+}
+.Rafale-BG{
+	font-family:"Rafale-BG";
+}
+.Anders{
+	font-family:"Anders";
+}
+.FRINCO{
+	font-family:"FRINCO";
+}
+.Berylium{
+	font-family:"Berylium";
+}
+.FoglihtenNo04-070{
+	font-family:"FoglihtenNo04-070";
+}
+.accent-true-type{
+	font-family:"accent-true-type";
+}
+.Neu-Eichmass{
+	font-family:"Neu-Eichmass";
+}
+.Old-printing-press{
+	font-family:"Old-printing-press";
+}
+.Thin-Line-Font{
+	font-family:"Thin-Line-Font";
+}
+.anurati{
+	font-family:"anurati";
+}
+.badhead-typeface{
+	font-family:"badhead-typeface";
+}
+.Boxboxbox_heavy{
+	font-family:"Boxboxbox_heavy";
+}
+.chesbone{
+	font-family:"chesbone";
+}
+.Circus-Freak-FreeFont{
+	font-family:"Circus-Freak-FreeFont";
+}
+.Debby{
+	font-family:"Debby";
+}
+.Higher{
+	font-family:"Higher";
+}
+.Mosaicleaf{
+	font-family:"Mosaicleaf";
+}
+.Navia{
+	font-family:"Navia";
+}
+.ogrejuice{
+	font-family:"ogrejuice";
+}
+.Origram{
+	font-family:"Origram";
+}
+.plstk{
+	font-family:"plstk";
+}
+.REIS{
+	font-family:"REIS";
+}
+.fontello{
+	font-family:"fontello";
+}
+.Sequi{
+	font-family:"Sequi";
+}
+.Ribbon{
+	font-family:"Ribbon";
+}
+.Stroke{
+	font-family:"Stroke";
+}
+.valencia{
+	font-family:"valencia";
+}
+.GDHighwayGoJA{
+	font-family:"GDHighwayGoJA";
+}
+.pigmo01{
+	font-family:"pigmo01";
+}

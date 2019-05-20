@@ -1,0 +1,130 @@
+
+body {
+  background: #456;
+  font-family: 'Open Sans', sans-serif;
+  display: table;
+  align-items: center;
+  justify-content: center;
+}
+select {
+  -webkit-appearance: none;/* ベンダープレフィックス(Google Chrome、Safari用) */
+  -moz-appearance: none;	/* ベンダープレフィックス(Firefox用) */
+  appearance: none;		/* 標準のスタイルを無効にする */
+  padding: 10px 15px;		/* ボックス内側の余白を指定する */
+  background:white;
+  width:25%;
+  color: #555;			/* フォントの色を指定 */
+  border: none;			/* 境界線をなしに指定する */
+  border-radius: 5px;		/* 角丸を指定する */
+}
+.login {
+  width: 500px;
+  height:710px;
+  font-size: 16px;
+  background: #363940;
+  border:none;
+  border-radius:7px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+.login-header {
+  padding: 10px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+.login div{
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #A3A3A4;
+  border:solid;
+  border-radius:5px;
+  color: #555;
+}
+
+/* Text fields' focus effect */
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.login input[type="submit"] {
+  background: #FAA61A;
+  border-color: transparent;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: 	#ff8c10;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: #05a;
+}
+
+.wrapper{
+  position:relative;
+}
+
+.check{
+  display : none;
+  position :absolute;
+  top:24px;
+  left:102%;
+  padding : 2px 10px;
+  color:#FFF;
+  background-color: green;
+  border-radius : 6px;
+  word-break:keep-all;
+  box-shadow : 4px 4px 4px rgba(0,0,0,0.4);
+
+}
+.check::before{
+  position :absolute;
+  top      :6px;
+  left:-15px;
+  border:8px solid transparent;
+  border-right:8px solid green;
+  content : '';
+}
+.check.error {
+  background-color: red;
+}
+.check.error::before{
+  border-right:8px solid red;
+}

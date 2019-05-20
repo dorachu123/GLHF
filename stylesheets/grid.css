@@ -1,0 +1,28 @@
+table{
+	border-collapse: collapse;
+	border:none;
+	width:100%;
+}
+table th, table td {
+  border: solid 1px gray;
+  	border:none;
+	background-color:white;
+  /*実線 1px 黒*/
+}
+.week{
+	border:ridge 2px gray;
+}
+.timesheet{
+	border:ridge 2px gray;
+}
+.timesheet:hover{
+	background-color:gray;
+}
+.row-checker{
+	
+}
+
+
+.input-wrapper{
+	position:relative;
+}
